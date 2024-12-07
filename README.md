@@ -1,4 +1,3 @@
-````markdown
 # 🌟 **Jobez - Company & Review Search Extension**
 
 # FireFox Version
@@ -56,7 +55,6 @@
 ```bash
 git clone https://github.com/itzzGaurav7/jobez_firefox
 ```
-````
 
 ### 2. Navigate to the project directory:
 
@@ -86,3 +84,7 @@ npm install
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
+
+```
+
+```
