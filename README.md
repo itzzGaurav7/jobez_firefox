@@ -1,6 +1,9 @@
+````markdown
 # 🌟 **Jobez - Company & Review Search Extension**
 
-**Jobez** is a Chrome extension that helps you easily search for company reviews and details on popular platforms like **AmbitionBox** and **Glassdoor** by simply right-clicking on selected text. 🔍✨
+# FireFox Version
+
+**Jobez** is a browser extension that helps you easily search for company reviews and details on popular platforms like **AmbitionBox** and **Glassdoor** by simply right-clicking on selected text. 🔍✨
 
 ## 📦 **Features**
 
@@ -11,27 +14,30 @@
 
 ## 🚀 **How to Use**
 
-1. **Install the Extension**:
+### 1. **Install the Extension**:
 
-   - Clone or download this repository.
-   - Go to `chrome://extensions/` in your browser.
-   - Enable **Developer Mode** at the top right.
-   - Click on **Load unpacked** and select the extension's folder.
+- Clone or download this repository.
 
-2. **Search with Jobez**:
+- For **Firefox**:
+  - Go to `about:debugging` in your browser.
+  - Click **This Firefox**.
+  - Click **Load Temporary Add-On** and select the extension's `manifest.json` file.
 
-   - **Right-click** on the selected company name or any text in your browser.
-   - You will see context menu options like:
-     - **Find '%s' on AmbitionBox**
-     - **Find '%s' on Glassdoor**
-     - **Search '%s' on all selected platforms**
+### 2. **Search with Jobez**:
 
-3. **Search Across All Platforms**:
+- **Right-click** on the selected company name or any text in your browser.
+- You will see context menu options like:
+  - **Find '%s' on AmbitionBox**
+  - **Find '%s' on Glassdoor**
+  - **Search '%s' on all selected platforms**
 
-   - After selecting text, click on **Search '%s' on all selected platforms** to open multiple tabs with search results from all the platforms you selected.
+### 3. **Search Across All Platforms**:
 
-4. **Customize Your Search Engines**:
-   - The extension lets you choose which search platforms (AmbitionBox, Glassdoor, etc.) you want to use. The preferences will be saved, and you can update them anytime.
+- After selecting text, click on **Search '%s' on all selected platforms** to open multiple tabs with search results from all the platforms you selected.
+
+### 4. **Customize Your Search Engines**:
+
+- The extension lets you choose which search platforms (AmbitionBox, Glassdoor, etc.) you want to use. The preferences will be saved, and you can update them anytime.
 
 ## 🛠️ **How It Works**
 
@@ -41,35 +47,42 @@
 
 ## 💾 **Storage**
 
-- Jobez uses **Chrome Storage API** to remember your selected search engines, so your preferences are saved across sessions.
+- Jobez uses **Storage API** to remember your selected search engines, so your preferences are saved across sessions.
 
 ## ⚙️ **Development**
 
-1. Clone this repository:
+### 1. Clone this repository:
 
-   ```bash
-   git clone https://github.com/yourusername/jobez-extension.git
-   ```
+```bash
+git clone https://github.com/itzzGaurav7/jobez_firefox
+```
+````
 
-2. Navigate to the project directory:
+### 2. Navigate to the project directory:
 
-   ```bash
-   cd jobez-extension
-   ```
+```bash
+cd jobez_firefox
+```
 
-3. Install dependencies (if applicable):
+### 3. Install dependencies (if applicable):
 
-   ```bash
-   npm install
-   ```
+```bash
+npm install
+```
 
-4. Open the extension folder in Chrome via `chrome://extensions/` and enable **Developer Mode**.
-   - Click **Load Unpacked** and select the extension folder.
+### 4. **For Chrome**:
+
+- Open the extension folder in Chrome via `chrome://extensions/` and enable **Developer Mode**.
+- Click **Load Unpacked** and select the extension folder.
+
+### 5. **For Firefox**:
+
+- Open Firefox and go to `about:debugging`.
+- Click **This Firefox**.
+- Click **Load Temporary Add-On** and select the extension's `manifest.json` file.
 
 ## 📜 **License**
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
-
-Feel free to contribute to Jobez! 🌟
